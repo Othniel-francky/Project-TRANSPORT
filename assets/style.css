@@ -22,7 +22,7 @@
   
   /* NORMAL STYLES */
   .header {
-    background-color: rgb(19, 22, 26);
+    background-color: #F8F9FA;
     /* position: fixed; */
     width: 100%;
     top: 0;
@@ -106,8 +106,30 @@
   .button1{
     height: 50px;
     width: 120px;
-    border: 1px solid red;
     border-radius: 10%;
+    background-color: #0071e3;
+  }
+
+    .button2{
+    height: 50px;
+    width: 120px;
+    border: 1px solid #0071e3;;
+    border-radius: 10%;
+  }
+  
+  span{
+    font-size: 20px;
+  }
+
+  .button1 p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .button2 p{
+    font-size: 15px;
+    text-align: center;
   }
   
   .btn:hover {
@@ -131,7 +153,7 @@
   }
   .mot-directeur p{
     margin: 10px;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   .contain{
@@ -142,7 +164,6 @@
   .details-contain{
     height: 100%;
     width: 100%;
-    border: 1px solid red;
     max-width: 1140px;
     margin: 0 auto;
   }
@@ -160,6 +181,17 @@
     border-radius: 5%;
 
   }
+
+  .cage-ph1:hover{
+    transition: all 0.2s;
+    background-color: #0071e3;
+  }
+
+  .cage-ph1 h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+  }
   .texte-phto{
     height: 30vh;
     width: 100%;
@@ -168,6 +200,48 @@
     height: 30vh;
     width: 100%;
     object-fit: cover;
+  }
+
+  .autrechose{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .autreimg img{
+    height: 50vh;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .autretexte h1{
+    font-size: 1rem;
+  }
+
+  .bardescrip{
+    width: 100%;
+    height: 20vh;
+    background-color: #0A2540;
+    margin-top: 3%;
+  }
+  .ranger{
+    display: flex;
+    justify-content: space-between;
+  }
+  .mesTexte{
+    display: flex;
+        align-items: flex-end;
+        margin-top: 4%;
+  }
+
+  .mesTexte h2{
+    text-align: center;
+    color: #FABD03;
+  }
+
+
+  .mesTexte p{
+    text-align: center;
+    color: #FABD03;
   }
   
   /* MEDIA QUERIES */
