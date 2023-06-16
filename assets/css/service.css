@@ -25,7 +25,8 @@
     background-color: #F8F9FA;
     /* position: fixed; */
     width: 100%;
-    top: 0;
+    /* top: 0; */
+    height: 90vh;
   }
   
   .header__content {
@@ -136,72 +137,6 @@
     background-color: rgb(28, 128, 228);
   }
 
-  .corps{
-    max-width: 1140px;
-    margin: 0 auto;
-  }
-  .global-corps{
-    display: flex;
-    align-items: center;
-  }
-  .img-corps img{
-    height: 371px;
-    width: 300px;
-    margin: 10px;
-    object-fit: cover;
-    
-  }
-  .mot-directeur p{
-    margin: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-  .contain{
-    height: 60vh;
-    width: 100%;
-   background-color: #F8F9FA;
-  }
-  .details-contain{
-    height: 100%;
-    width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
-  }
-  .texte{
-    text-align: center;
-  }
-  .cage-photo{
-    display: flex;
-    justify-content: space-around;
-  }
-  .cage-ph1{
-    height: 40vh;
-    width: 30%;
-    background-color: #fff;
-    border-radius: 5%;
-
-  }
-
-  .cage-ph1:hover{
-    transition: all 0.2s;
-    background-color: #0071e3;
-  }
-
-  .cage-ph1 h2{
-    font-size: 20px;
-    text-align: center;
-    margin: 10px;
-  }
-  .texte-phto{
-    height: 30vh;
-    width: 100%;
-  }
-  .texte-phto img{
-    height: 30vh;
-    width: 100%;
-    object-fit: cover;
-  }
-
   .autrechose{
     max-width: 1140px;
     margin: 0 auto;
@@ -216,6 +151,7 @@
   .autretexte h1{
     font-size: 1rem;
   }
+
   .decouverte{
     height: 5vh;
     width: 50%;
@@ -238,85 +174,6 @@
   color: #fff;
 }
 
-  .bardescrip{
-    width: 100%;
-    height: 20vh;
-    background-color: #0A2540;
-    margin-top: 3%;
-  }
-  .ranger{
-    display: flex;
-    justify-content: space-between;
-  }
-  .mesTexte{
-    display: flex;
-        align-items: flex-end;
-        margin-top: 4%;
-  }
-
-  .mesTexte h2{
-    text-align: center;
-    color: #FABD03;
-  }
-
-
-  .mesTexte p{
-    text-align: center;
-    color: #FABD03;
-  }
-
-  .encadrer{
-    background-color:  #F8F9FA;
-  }
-
-  .AvtDernierePartir{
-    max-width: 1140px;
-    margin: 0 auto;
-  }
-
-  .partenaire{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10%;
-  }
-  .logo1 img{
-    height: 120px;
-    width: 200px;
-  }
-
-  .recomande{
-    text-align: center;
-    margin-top: 15%;
-  }
-
-  .decouvert{
-    height: 5vh;
-    width: 30%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    background-color: #0071e3;
-    border-radius: 5%;
-    text-align: center;
-  }
-
-  .milieu{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-  }
-
-  .decouvert .petitmot{
-    font-size: 15px;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  .decouvert .crochet{
-    font-size: 15px;
-    font-weight: bolder;
-    color: #fff;
-  }
 
 
   
