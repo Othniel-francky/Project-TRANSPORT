@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ .navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: #b2e5fc;
+ }
+
+
+ .logo img{
+    height: 50px;
+    width: 50px;
+ }
+
+ .logo{
+    margin-left: 100%;
+ }
+h3{
+    margin-left: 100%;
+    font-size: 15px;
+    margin-top: 10%;
+ }
