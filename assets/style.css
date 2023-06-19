@@ -40,7 +40,7 @@
   
   
   .logo__img {
-    height: 50px;
+    height: 80px;
     display: block;
   }
   
@@ -66,7 +66,7 @@
   
   .nav__link:hover,
   .nav__link:focus {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(0, 183, 255);
   }
   
   .nav__link::after {
@@ -108,13 +108,19 @@
     width: 120px;
     border-radius: 10%;
     background-color: #0071e3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
   }
 
     .button2{
     height: 50px;
     width: 120px;
-    border: 1px solid #0071e3;;
+    border: 2px solid #0071e3;;
     border-radius: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
   }
   
   span{
@@ -123,13 +129,11 @@
 
   .button1 p{
     font-size: 20px;
-    text-align: center;
     color: #fff;
   }
 
   .button2 p{
     font-size: 15px;
-    text-align: center;
   }
   
   .btn:hover {
@@ -217,13 +221,14 @@
     font-size: 1rem;
   }
   .decouverte{
-    height: 5vh;
-    width: 50%;
+    height: 53px;
+    width: 43%;
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
     background-color: #0071e3;
     border-radius: 5%;
+    text-align: center;
+    justify-content: space-around;
   }
 
 .decouverte .petitmot{
@@ -290,14 +295,14 @@
   }
 
   .decouvert{
-    height: 5vh;
-    width: 30%;
+    height: 53px;
+    width: 27%;
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
     background-color: #0071e3;
     border-radius: 5%;
     text-align: center;
+    justify-content: space-around;
   }
 
   .milieu{
@@ -318,7 +323,9 @@
     color: #fff;
   }
 
-
+.distance{
+  margin-top: 5%;
+}
   
   /* MEDIA QUERIES */
   @media (max-width: 650px) {
