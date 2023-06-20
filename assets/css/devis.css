@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* BASE STYLES */
+
+
+/* NORMAL STYLES */
+.header {
+  background-color: #f8f9fa;
+  /* position: fixed; */
+  width: 100%;
+  /* top: 0; */
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+
+.logo__img {
+  height: 90px;
+  display: block;
+}
+
+.nav {
+
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+  color: black;
+  font-size: 15px;
+  transition: all 0.4s;
+  position: relative;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: black;
+}
+
+.nav__link::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: rgb(0, 183, 255);
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: all 0.2s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav__link:hover::after {
+  opacity: 1;
+}
+
+
+
+.btn {
+  color: #fff;
+  background-color: #0071e3;
+  padding: 7px 18px;
+  border-radius: 1000px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.twobuttons{
+  display: flex;
+  gap: 10%;
+}
+.button1{
+  height: 50px;
+  width: 120px;
+  border-radius: 10%;
+  background-color: #0071e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .button2{
+  height: 50px;
+  width: 120px;
+  border: 2px solid #0071e3;;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span{
+color: #0071e3;
+}
+
+.button1 p{
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.button2 p{
+  font-size: 15px;
+  text-align: center;
+  font-weight: bolder;
+  color: #0273e6;
+}
+
+.btn:hover {
+  background-color: rgb(28, 128, 228);
+}
+
+.autrechose{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+
+.decouverte{
+  height: 50px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ border: 1px solid #0071e3;
+  border-radius: 5%;
+  margin-top: 2%;
+}
+
+.decouverte .petitmot{
+font-size: 15px;
+font-weight: bold;
+color: black;
+}
+
+.decouverte .crochet{
+font-size: 15px;
+font-weight: bolder;
+color: #fff;
+}
+
+
+
+.separe{
+max-width: 1340px;
+margin: 0 auto;
+}
+
+.txtAcc{
+margin-top: 8%;
+}
+.pourTexte{
+display: flex;
+justify-content: space-evenly;
+margin-top: 5%;
+}
+.diviser{
+margin-top: 8%;
+}
+.diviser h1{
+font-size: 60px;
+font-weight: bolder;
+}
+
+.diviser p{
+
+font-size: 15 px;
+}
+.autreimg img{
+height: 45vh;
+width: 100%;
+
+}
+
+.distance{
+margin-top: 5%;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 650px) {
+  .header__content {
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+    row-gap: 18px;
+  }
+
+  .nav__list {
+    column-gap: 20px;
+  }
+}

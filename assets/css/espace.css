@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+  a {
+   text-decoration: none;
+ }
+
  .navbar{
     height: 10vh;
     width: 100%;
@@ -23,4 +27,152 @@ h3{
     margin-left: 100%;
     font-size: 15px;
     margin-top: 10%;
+ }
+ .mon{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ .titre h1{
+   text-align: center;
+ }
+
+ .imOrdi img{
+   height: 30vh;
+   width: 80%;
+ }
+
+
+
+.monespace{
+   display: flex;
+}
+
+
+
+.distance{
+   margin-top: 16%;
+   position: sticky;
+ }
+
+ .input_box {
+   /* position: relative; */
+   margin-top: 30px;
+   width: 100%;
+   height: 40px;
+   display: flex;
+   /* gap: 10%; */
+   align-items: baseline;
+   justify-content: space-between;
+ }
+ .input_box input {
+   height: 100%;
+   width: 400px;
+   border: none;
+   outline: none;
+   padding: 0 30px;
+   color: #333;
+   transition: all 0.2s ease;
+   border-bottom: 1.5px solid #aaaaaa;
+ }
+ .input_box input:focus {
+   border-color: #7d2ae8;
+ }
+ /* .input_box i {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   font-size: 20px;
+   color: #707070;
+ } */
+ .input_box i.email,
+ .input_box i.password {
+   left: 0;
+ }
+ .input_box input:focus ~ i.email,
+ .input_box input:focus ~ i.password {
+   color: #7d2ae8;
+ }
+ .input_box i.pw_hide {
+   right: 0;
+   font-size: 18px;
+   cursor: pointer;
+ }
+
+ .input_box p{
+   font-size: 12px;
+    line-height: 1.07142857;
+    font-weight: 400;
+ }
+
+
+ .input_box1 {
+   /* position: relative; */
+   margin-top: 10%;
+   width: 100%;
+   height: 40px;
+   display: flex;
+   /* gap: 10%; */
+   align-items: baseline;
+   justify-content: space-between;
+ }
+ .input_box1 input {
+   height: 100%;
+   width: 400px;
+   border: none;
+   outline: none;
+   padding: 0 30px;
+   color: #333;
+   transition: all 0.2s ease;
+   border-bottom: 1.5px solid #aaaaaa;
+ }
+ .input_box1 input:focus {
+   border-color: #7d2ae8;
+ }
+ /* .input_box i {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   font-size: 20px;
+   color: #707070;
+ } */
+ .input_box1 i.email,
+ .input_box1 i.password {
+   left: 0;
+ }
+ .input_box1 input:focus ~ i.email,
+ .input_box1 input:focus ~ i.password {
+   color: #7d2ae8;
+ }
+ .input_box1 i.pw_hide {
+   right: 0;
+   font-size: 18px;
+   cursor: pointer;
+ }
+
+ .input_box1 p{
+   font-size: 12px;
+    line-height: 1.07142857;
+    font-weight: 400;
+ }
+
+ .decouvert{
+   height: 45px;
+   width: 40%;
+   display: flex;
+   align-items: flex-end;
+   background-color: #0071e3;
+   border-radius: 5%;
+   text-align: center;
+   justify-content: space-around;
+   margin-top: 10%;
+ }
+ .connexion{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center
+ }
+
+ .motdepasse{
+   font-size: 15px;
  }
