@@ -192,6 +192,10 @@
     text-align: center;
     margin: 10px;
   }
+
+  .cage-ph1:hover{
+    transform: scaleX(0.8);
+  }
   .texte-phto{
     height: 30vh;
     width: 100%;

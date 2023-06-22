@@ -152,11 +152,11 @@ color: #0071e3;
   height: 50px;
   width: 50%;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
- border: 1px solid #0071e3;
+  border: 1px solid #0071e3;
   border-radius: 5%;
   margin-top: 2%;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .decouverte .petitmot{
