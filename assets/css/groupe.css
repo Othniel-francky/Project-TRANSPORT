@@ -143,3 +143,103 @@
   .btn:hover {
     background-color: rgb(28, 128, 228);
   }
+
+  .separe{
+    max-width: 1340px;
+    margin: 0 auto;
+    }
+
+
+    .txtAcc{
+      margin-top: 8%;
+      }
+
+      .pourMesTextes{
+        text-align: center;
+      }
+
+      .titre h1{
+        font-size: 50px;
+      }
+      .texte p{
+        margin-top: 2%;
+        font-size: 20px;
+      }
+
+      .pourImage{
+        background-image: url("/image/entrepot-sifa.png");
+        height: 60vh;
+        width: 100%;
+        margin-top: 5%;
+      }
+
+      .mot{
+        display: flex;
+        justify-content: center;
+      }
+
+      .mot h3{
+        font-size: 40px;
+        color: #fff;
+        margin-top: 15%;
+      }
+
+      .separ{
+        max-width: 900px;
+        margin: 0 auto;
+        }
+
+      .titre p{
+        font-size: 20px;
+        margin-top: 5%;
+      }
+
+      .pourImg{
+        background-image: url("/image/informatique.png");
+        height: 60vh;
+        width: 100%;
+        margin-top: 5%;
+      }
+
+      .sepa{
+        max-width: 700px;
+        margin: 0 auto;
+        }
+
+        .recomande{
+          text-align: center;
+          margin-top: 5%;
+        }
+
+        .decouvert{
+          height: 53px;
+          width: 15%;
+          display: flex;
+          align-items: flex-end;
+          background-color: #0071e3;
+          border-radius: 5%;
+          text-align: center;
+          justify-content: space-around;
+        }
+      
+        .milieu{
+          display: flex;
+          justify-content: center;
+          margin-top: 2%;
+        }
+      
+        .decouvert .petitmot{
+          font-size: 15px;
+          font-weight: bold;
+          color: #fff;
+        }
+        
+        .decouvert .crochet{
+          font-size: 15px;
+          font-weight: bolder;
+          color: #fff;
+        }
+      
+      .distance{
+        margin-top: 5%;
+      }

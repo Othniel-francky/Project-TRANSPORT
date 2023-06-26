@@ -160,7 +160,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-  .contain{
+   #contain{
     height: 60vh;
     width: 100%;
    background-color: #F8F9FA;

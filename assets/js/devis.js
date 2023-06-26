@@ -17,9 +17,15 @@ global1.addEventListener('click',(e)=>{
     wrapper1.style.display = "block";
     wrapper2.style.display = "none";
     wrapper3.style.display = "none";
-})
+});
 global2.addEventListener('click',(e)=>{
     wrapper1.style.display = "none";
     wrapper2.style.display = "block";
     wrapper3.style.display = "none";
+});
+
+global3.addEventListener('click',(e)=>{
+    wrapper1.style.display = "none";
+    wrapper2.style.display = "none";
+    wrapper3.style.display = "block";
 })
