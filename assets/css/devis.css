@@ -169,6 +169,7 @@ color: #0071e3;
   align-items: flex-end;
 }
 
+
 .decouverte .petitmot{
 font-size: 15px;
 font-weight: bold;
@@ -220,6 +221,8 @@ margin-top: 5%;
 }
 
 
+
+
 .wrapper1{
   max-width: 500px;
   width: 100%;
@@ -227,13 +230,14 @@ margin-top: 5%;
   margin: 20px auto;
   box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
   padding: 30px;
+  display: none;
 }
 
 .wrapper1 .title{
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
-  color: #fec107;
+ color: #0273e6;
   text-transform: uppercase;
   text-align: center;
 }
@@ -306,7 +310,7 @@ margin-top: 5%;
 .wrapper1 .form .inputfield .input:focus,
 .wrapper1 .form .inputfield .textarea:focus,
 .wrapper1 .form .inputfield .custom_select select:focus{
-  border: 1px solid #fec107;
+  border: 1px solid #0273e6;
 }
 
 .wrapper1 .form .inputfield p{
@@ -329,7 +333,7 @@ margin-top: 5%;
 .wrapper1 .form .inputfield .check .checkmark{
   width: 15px;
   height: 15px;
-  border: 1px solid #fec107;
+  border: 1px solid #0273e6;
   display: block;
   position: relative;
 }
@@ -346,7 +350,7 @@ margin-top: 5%;
   display: none;
 }
 .wrapper1 .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
-  background: #fec107;
+  background: #0273e6;
 }
 
 .wrapper1 .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
@@ -358,7 +362,7 @@ margin-top: 5%;
    padding: 8px 10px;
   font-size: 15px; 
   border: 0px;
-  background:  #fec107;
+  background:  #0273e6;
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
@@ -366,7 +370,7 @@ margin-top: 5%;
 }
 
 .wrapper1 .form .inputfield .btn:hover{
-  background: #ffd658;
+  background: #0273e6;
 }
 
 .wrapper1 .form .inputfield:last-child{
@@ -400,7 +404,7 @@ margin-top: 5%;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
-  color: #fec107;
+  color: #0273e6;
   text-transform: uppercase;
   text-align: center;
 }
@@ -473,7 +477,7 @@ margin-top: 5%;
 .wrapper2 .form .inputfield .input:focus,
 .wrapper2 .form .inputfield .textarea:focus,
 .wrapper2 .form .inputfield .custom_select select:focus{
-  border: 1px solid #fec107;
+  border: 1px solid #0273e6;
 }
 
 .wrapper2 .form .inputfield p{
@@ -496,7 +500,7 @@ margin-top: 5%;
 .wrapper2 .form .inputfield .check .checkmark{
   width: 15px;
   height: 15px;
-  border: 1px solid #fec107;
+  border: 1px solid #0273e6;
   display: block;
   position: relative;
 }
@@ -513,7 +517,7 @@ margin-top: 5%;
   display: none;
 }
 .wrapper2 .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
-  background: #fec107;
+  background: #0273e6;
 }
 
 .wrapper2 .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
@@ -525,7 +529,7 @@ margin-top: 5%;
    padding: 8px 10px;
   font-size: 15px; 
   border: 0px;
-  background:  #fec107;
+  background:  #0273e6;
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
@@ -533,7 +537,7 @@ margin-top: 5%;
 }
 
 .wrapper2 .form .inputfield .btn:hover{
-  background: #ffd658;
+  background: #0273e6;
 }
 
 .wrapper2 .form .inputfield:last-child{
@@ -567,7 +571,7 @@ margin-top: 5%;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
-  color: #fec107;
+  color: #0273e6;
   text-transform: uppercase;
   text-align: center;
 }
@@ -640,7 +644,7 @@ margin-top: 5%;
 .wrapper3 .form .inputfield .input:focus,
 .wrapper3 .form .inputfield .textarea:focus,
 .wrapper3 .form .inputfield .custom_select select:focus{
-  border: 1px solid #fec107;
+  border: 1px solid #0273e6;
 }
 
 .wrapper3 .form .inputfield p{
@@ -663,7 +667,7 @@ margin-top: 5%;
 .wrapper3 .form .inputfield .check .checkmark{
   width: 15px;
   height: 15px;
-  border: 1px solid #fec107;
+  border: 1px solid #0273e6;
   display: block;
   position: relative;
 }
@@ -680,7 +684,7 @@ margin-top: 5%;
   display: none;
 }
 .wrapper3 .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
-  background: #fec107;
+  background: #0273e6;
 }
 
 .wrapper3 .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
@@ -692,7 +696,7 @@ margin-top: 5%;
    padding: 8px 10px;
   font-size: 15px; 
   border: 0px;
-  background:  #fec107;
+  background:  #0273e6;
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
@@ -700,7 +704,7 @@ margin-top: 5%;
 }
 
 .wrapper3 .form .inputfield .btn:hover{
-  background: #ffd658;
+  background: #0273e6;
 }
 
 .wrapper3 .form .inputfield:last-child{
